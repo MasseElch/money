@@ -11,7 +11,7 @@ use Money\Calculator\PhpCalculator;
  *
  * @author Mathias Verraes
  */
-final class Money implements \JsonSerializable
+class Money implements \JsonSerializable
 {
     const ROUND_HALF_UP = PHP_ROUND_HALF_UP;
 
