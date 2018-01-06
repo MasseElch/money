@@ -34,12 +34,12 @@ class Money implements \JsonSerializable
      *
      * @var string
      */
-    private $amount;
+    protected $amount;
 
     /**
      * @var Currency
      */
-    private $currency;
+    protected $currency;
 
     /**
      * @var Calculator
